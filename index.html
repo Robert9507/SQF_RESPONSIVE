@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- https://cdnjs.com/libraries/font-awesome -->
+
+	<!-- https://fontawesome.com/icons -->
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+	integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+	crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<link rel="stylesheet" href="style.css" />
+
+	<!-- https://www.flaticon.es/ -->
+	<link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/1356/1356479.png" type="image/x-icon">
+
+    <title>Portfolio-Flexbox</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- HEADER SECTION SATRTS -->
+	<header class="header">
+		<nav class="navbar">
+			<div class="container">
+				<div class="logo">Star Q Food</div>
+				<ul class="menu">
+					<li><a href="#navbar"><span>Inicio</span></a></li>
+					<li><a href="#portfolio">Productos</a></li>
+					<li><a href="#about">Acerca</a></li>
+					<li><a href="#expert">Soporte</a></li>
+					<li><a href="#contact">Contactos</a></li>
+                    <li><a href="#contact">Tienda</a></li>
+				</ul>
+			</div>
+		</nav>
+		<div class="showcase">
+			<div class="container-2">
+				<div class="showcase-box">
+					<h1>Bienvenidos a Star Q Food</h1>
+					<a href="https://play.google.com/store/games" target="_blank" class="btn btn-light">Ir</a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- HEADER SECTION ENDS -->
+
+    <!-- MAIN SECTION STARTS  -->
+	<main class="main">
+
+		<!-- ABOUT SECTION STARTS  -->
+		<section class="about container" id="about">
+			<div class="about__texts">
+				<h2 class="title">Acerca de la App</h2>
+				<p class="about__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio exercitationem
+					accusamus laudantium aliquam, voluptatem nobis numquam, eos neque perferendis quisquam laboriosam
+					natus architecto harum, dolorem autem at cupiditate dolore consequuntur.</p>
+				<a href="https://play.google.com/store/games" target="_blank" class="btn btn-about">Descargar</a>
+			</div>
+			<figure class="about__img">
+				<img src="./images/logo_sqf.svg" class="about__picture" alt="chica">
+			</figure>
+		</section>
+		<!-- ABOUT SECTION ENDS  -->
+
+		<!-- PORTFOLIO SECTION STARTS  -->
+		<section class="portfolio" id="portfolio">
+			<div class="portfolio__container container">
+				
+				<h2 class="title">Tu mejor opción</h2>
+
+				<div class="portfolio__cards">
+					<article class="portfolio__card">
+						<img src="./images/img-food.jpg" class="portfolio__picture" alt="portafolio 1">
+						<div class="portfolio__texts">
+							<h3 class="portfolio__title">Comida inmediata</h3>
+							<p class="portfolio__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Minus tempore voluptatem quis in eaque obcaecati optio impedit numquam ex quos.</p>
+							<a href="#" class="btn btn-portfolio">Más información</a>
+						</div>
+					</article>
+
+					<article class="portfolio__card">
+						<img src="./images/buscar-food.jpg" class="portfolio__picture" alt="portafolio 2">
+						<div class="portfolio__texts">
+							<h3 class="portfolio__title">Busca tu restaurante favorito</h3>
+							<p class="portfolio__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Minus tempore voluptatem quis in eaque obcaecati optio impedit numquam ex quos.</p>
+							<a href="#" class="btn btn-portfolio">Más información</a>
+						</div>
+					</article>
+
+					<article class="portfolio__card">
+						<img src="./images/atencion-food.jpg" class="portfolio__picture" alt="portafolio 3">
+						<div class="portfolio__texts">
+							<h3 class="portfolio__title">Atención amable y rápida</h3>
+							<p class="portfolio__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Minus tempore voluptatem quis in eaque obcaecati optio impedit numquam ex quos.</p>
+							<a href="#" class="btn btn-portfolio">Más información</a>
+						</div>
+					</article>
+				</div>
+			</div>
+		</section>
+		<!-- PORTFOLIO SECTION ENDS  -->
+		
+		<!-- LANGUAGES SECTION STARTS  -->
+		<section class="languages" id="expert">
+			
+			<div class="container">
+				<h2 class="title">Disponible para Android y iOS</h2>
+				<div class="languages__container">
+					<img src="./images/android.svg" class="languages__picture" alt="html">
+					<img src="./images/ios.svg" class="languages__picture" alt="css">
+				</div>
+			</div>
+
+		</section>
+		<!-- LANGUAGES SECTION ENDS  -->
+	</main>
+	<!-- MAIN SECTION ENDS  -->
+
+	<!-- FOOTER SECTION STARTS  -->
+	<footer class="footer" id="contact">
+		
+		<div class="footer__container container">
+			
+			<div class="footer__texts">
+				<h2 class="title">Contactanos</h2>
+				<div class="footer__icons">
+					<a href="#" class="footer__icon fab fa-facebook-f"></a>
+					<a href="#" class="footer__icon fab fa-twitter"></a>
+					<a href="#" class="footer__icon fab fa-instagram"></a>
+				</div>
+				<nav class="footer__nav">
+					<a href="#" class="footer__link">Inicio</a>
+					<a href="#about" class="footer__link">Acerca</a>
+					<a href="#portfolio" class="footer__link">Productos</a>
+				</nav>
+				<p class="footer__copy">Derechos reservados &copy; SqF</p>
+			</div>
+
+			<figure class="footer__img">
+				<img src="./images/mail.svg" class="footer__picture" alt="correo">
+			</figure>
+		</div>
+	</footer>
+	<!-- FOOTER SECTION STARTS  -->
+</body>
+</html>
